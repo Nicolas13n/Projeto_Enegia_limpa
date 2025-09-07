@@ -11,6 +11,7 @@
     }
     .menu{
         display: none;
+        position: fixed;
     }
     .titulo{
         width: 100%;
@@ -18,6 +19,7 @@
     }
     .menuResponsivoButton{
         display: block;
+        
     }
     
 .card-{
