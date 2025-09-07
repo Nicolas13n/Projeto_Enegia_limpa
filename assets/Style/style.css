@@ -120,6 +120,7 @@ main .title{
 
 .card-list .card-item .card{
     height: 400px;
+    width: 100%;
     user-select: none;
     display: block;
     background-color: rgba(5, 129, 5, 0.705);
@@ -129,7 +130,7 @@ main .title{
 }
 
 .card-list .card-item .Card-Image{
-    height: 200px;
+    height: 35%;
     width: 100%;
     border-radius: 12px;
 }
