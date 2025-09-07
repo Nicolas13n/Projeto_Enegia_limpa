@@ -17,41 +17,42 @@
 <body>
     <div class="container">
 
-        <video autoplay muted loop id="video-bg">
-            <source src="assets/video/vídeos-free---vista-aérea-energia-eólica-energia-limpa.mp4" type="video/mp4">
-
-        </video>
-        <div class="geralHeader">
-            <header>
-                <div class="logoAndTitle">
-                    <img src="https://cdn-icons-png.flaticon.com/512/6331/6331491.png" alt="">
-                    <h1>Energia <span class="color">limpa</span></h1>
-                </div>
-                <div class="menu">
+        <div class="geral">
+            <video autoplay muted loop id="video-bg" class="hidden">
+                <source src="assets/video/vídeos-free---vista-aérea-energia-eólica-energia-limpa.mp4" type="video/mp4" class="hidden">
+            </video>
+            <div class="geralHeader hidden">
+                <header>
+                    <div class="logoAndTitle">
+                        <img src="https://cdn-icons-png.flaticon.com/512/6331/6331491.png" alt="">
+                        <h1>Energia <span class="color">limpa</span></h1>
+                    </div>
+                    <div class="menu">
+                        <a href="index.html">Home</a>
+                        <a href="sobre.html">Sobre</a>
+                        <a href="contato.html">Contato</a>
+                    </div>
+                    <div class="menuResponsivoButton">
+                        <img src="assets/Images/menu-aberto (2).png" alt="">
+                    </div>
+                </header>
+                <div class="menuResponsivo">
+                    <div class="buttonClose">
+                        <img src="assets/Images/marca-cruzada.png" alt="">
+                    </div>
                     <a href="index.html">Home</a>
                     <a href="sobre.html">Sobre</a>
                     <a href="contato.html">Contato</a>
                 </div>
-                <div class="menuResponsivoButton">
-                    <img src="assets/Images/menu-aberto (2).png" alt="">
-                </div>
-            </header>
-            <div class="menuResponsivo">
-                <div class="buttonClose">
-                    <img src="assets/Images/marca-cruzada.png" alt="">
-                </div>
-                <a href="index.html">Home</a>
-                <a href="sobre.html">Sobre</a>
-                <a href="contato.html">Contato</a>
+                <section class="hidden">
+                    <div class="titulo">
+                        <h1>Energia <span class="color">limpa</span></h1>
+                    </div>
+                </section>
             </div>
-            <section>
-                <div class="titulo">
-                    <h1>Energia <span class="color">limpa</span></h1>
-                </div>
-            </section>
         </div>
 
-        <main class="swiper">
+        <main class="swiper hidden">
             <h2 class="title">Tipos de energia limpa</h2>
             <div class="card-wrapper">
                 <ul class="card-list swiper-wrapper">
@@ -118,10 +119,10 @@
                 <div class="swiper-button-next"></div>
             </div>
         </main>
-        <main class="mainCards">
+        <main class="mainCards hidden">
             <h2>O que a energia limpa ajuda no mundo?</h2>
             <div class="cards">
-                <article class="card-">
+                <article class="card- hidden">
                     <div class="icon">
                         <img src="https://cdn-icons-png.flaticon.com/512/8541/8541903.png" alt="">
                     </div>
@@ -141,7 +142,7 @@
                         </p>
                     </div>
                 </article>
-                <article class="card-">
+                <article class="card- hidden">
                     <div class="icon">
                         <img src="https://cdn-icons-png.flaticon.com/512/2726/2726562.png" alt="">
                     </div>
@@ -156,7 +157,7 @@
                 </article>
             </div>
         </main>
-        <footer>
+        <footer class="hidden">
             <div class="footer-content">
                 <div class="footer-section">
                     <h3>Energia Limpa</h3>
@@ -183,6 +184,7 @@
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
     <script src="assets/Javascript/scriptSwiper.js"></script>
     <script src="assets/Javascript/scriptmenu.js"></script>
+    <script src="assets/Javascript/script.js"></script>
 </body>
 
 </html>
