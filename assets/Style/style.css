@@ -86,6 +86,7 @@ section {
     gap: 20px;
     z-index: 1;
     transition: all 0.3s ease-in-out;
+    position: fixed;
 }
 .menuResponsivo a{
     color: black;
