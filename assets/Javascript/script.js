@@ -21,10 +21,18 @@ elements.forEach(element => {
 
 
 
-// const menuOberver = new IntersectionObserver((entries) => {
-//     if(entries.isIntersecting === false){
-//         menuResponsivo.style.display = 'none';
-//     }
-// });
-// const menuResponsivo = document.querySelector('.menuResponsivo');
-// menuOberver.observe(menuResponsivo);
+document.querySelectorAll('a[href^="#"]').forEach(link => {
+    link.addEventListener('click', function(e) {
+        const destinoId = this.getAttribute('href').replace('#', '');
+        if (destinoId) {
+            const destino = document.getElementById(destinoId);
+            if (destino) {
+                e.preventDefault();
+                destino.scrollIntoView({ behavior: 'smooth' });
+               
+                const menu = document.querySelector('.menuResponsivo');
+                if (menu) menu.classList.remove('active');
+            }
+        }
+    });
+});
