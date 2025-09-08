@@ -71,21 +71,25 @@ section {
     display: none;
 }
 .menuResponsivo {
+    position: fixed;
+    top: 0;
+    right: 0;
     height: 100vh;
     width: 250px;
-    display: none;
+    display: flex;
     flex-direction: column;
     align-items: center;
     background-color: rgb(199, 255, 96);
-    top: 0px;
-    right: -250px;
     padding: 30px;
-    border-radius: 10px;
+    border-radius: 10px 0 0 10px;
     font-size: 1.2rem;
     gap: 20px;
-    z-index: 1;
-    transition: all 0.3s ease-in-out;
-    position: fixed;
+    z-index: 999;
+    box-sizing: border-box;
+    transform: translateX(-100%);
+    opacity: 0;
+    transition: transform 0.4s cubic-bezier(.77,0,.18,1), opacity 0.3s;
+    
 }
 .menuResponsivo a{
     color: black;
@@ -98,8 +102,11 @@ section {
     cursor: pointer;
 }
 
-.swiper{
+.swiper {
     margin-bottom: 30px;
+    width: 100%;
+    max-width: 1200px;
+    border-radius: 16px; 
 }
 
 main .title{
@@ -142,11 +149,13 @@ main .title{
     color: green;
 }
 .menuResponsivo.active{
-        position: absolute;
-        right: 0;
-        transition: all 0.3s ease-in-out;
-        display: flex;
+    position: fixed;
+    transform: translateX(0);
+    opacity: 1;
+    transition: transform 0.4s cubic-bezier(.77,0,.18,1), opacity 0.3s;
+    display: flex;
 }
+
 
 .mainCards{
     display: flex;
@@ -266,3 +275,8 @@ footer {
     transition-delay: 400ms;
 }
 
+.c{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
