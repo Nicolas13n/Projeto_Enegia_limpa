@@ -34,40 +34,31 @@ document.querySelectorAll('a[href^="#"]').forEach(link => {
 });
 
 
-let enviar = () => {
-    let nome = document.querySelector(".inNome").value
-    let email = document.querySelector(".inEmail").value
-    let mensagem = document.querySelector(".inMensagem  ").value
-    validaEmail(email)
-    'campoVazio(nome, email, mensagem)'
-    limpar()
-}
+let btnEnviar = document.querySelector('.btnEnviar');
+btnEnviar.addEventListener('click', function(e) {
+    let inNome = document.querySelector('.inNome').value;
+    let inEmail = document.querySelector('.inEmail').value;
+    let inMensagem = document.querySelector('.inMensagem').value;
+    let mansagem = document.querySelector('.mansagem');
 
-const validaEmail = (email) => {
-    for (let i = 0; i < email.length; i++) {
-        if (email[i] == "@") {
-            return
-        }
+    mansagem.style.color = 'red';
+    mansagem.style.fontWeight = 'bold';
+    if (inNome === '' || inEmail === '' || inMensagem === '') {
+        e.preventDefault();
+        setTimeout(() => {
+            mansagem.innerText = '';
+        },3000)
+        mansagem.style.color = 'red';
+        mansagem.innerText = 'Por favor, preencha todos os campos.';
+        return;
     }
-    alert("o email não possui o caracter @")
-}
-
-const campoVazio = (c1, c2, c3) => {
-    if (c1 == "") {
-        alert("um nome esta vazio")
-
-    }
-    if (c2 == "") {
-        alert("um email esta vazio")
-
-    }
-    if (c3 == "") {
-        alert("a mensagem esta vazio")
-    }
-}
-
-const limpar = () =>{
-    document.querySelector(".inNome").value = ""
-    document.querySelector(".inEmail").value = ""
-    document.querySelector(".inMensagem").value = ""
-}
+    e.preventDefault();
+    mansagem.style.color = 'green';
+    mansagem.innerText = 'Mensagem enviada com sucesso!';
+    setTimeout(() => {
+            mansagem.innerText = '';
+        },3000)
+    document.querySelector('.inNome').value = '';
+    document.querySelector('.inEmail').value = '';
+    document.querySelector('.inMensagem').value = '';
+});
