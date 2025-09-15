@@ -154,6 +154,10 @@ main .title {
   color: white;
 }
 
+.card-list .card-item .card h2{
+    margin-bottom: 12px;
+}
+
 .card-list .card-item .Card-Image {
   height: 60%;
   width: 100%;
