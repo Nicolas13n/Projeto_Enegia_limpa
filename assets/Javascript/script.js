@@ -60,8 +60,11 @@ btnEnviar.addEventListener('click', function(e) {
     document.querySelector('.inMensagem').value = '';
 });
 
-
 const btnDarkMode = document.querySelector('.btnDarkMode');
+const all = document.querySelectorAll('*');
 btnDarkMode.addEventListener('click', () => {
+    all.forEach(element => {
+        element.classList.toggle('darkMode');
+    });
     btnDarkMode.classList.toggle('active');
 });
