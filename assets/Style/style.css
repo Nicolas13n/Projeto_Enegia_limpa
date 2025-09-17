@@ -370,3 +370,20 @@ footer {
   transition: background-color 0.3s, transform 0.3s;
   z-index: 2;
 }
+
+
+.btnDarkMode{
+  background: none;
+  border: none;
+  cursor: pointer;
+  color: black;
+  font-size: 1.8rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.btnDarkMode.active{
+  
+  color: white;
+}

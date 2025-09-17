@@ -1,4 +1,3 @@
-
 const myOberver = new IntersectionObserver((entries) => {
     entries.forEach(entry => {
         if (entry.isIntersecting) {
@@ -6,8 +5,6 @@ const myOberver = new IntersectionObserver((entries) => {
             entry.target.classList.add('show'); 
             return
         }
-        entry.target.classList.remove('show');
-        entry.target.classList.add('hidden');
     });
 });
 const elements = document.querySelectorAll('.hidden');
@@ -61,4 +58,10 @@ btnEnviar.addEventListener('click', function(e) {
     document.querySelector('.inNome').value = '';
     document.querySelector('.inEmail').value = '';
     document.querySelector('.inMensagem').value = '';
+});
+
+
+const btnDarkMode = document.querySelector('.btnDarkMode');
+btnDarkMode.addEventListener('click', () => {
+    btnDarkMode.classList.toggle('active');
 });
