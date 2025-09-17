@@ -388,7 +388,13 @@ footer {
   color: white;
 }
 
-
+body.darkMode{
+  background-color: black;
+  color: white;
+}
 .color.darkMode{
   color: rgb(114, 50, 114)
+}
+.card.darkMode{
+  background-color:darkgreen;
 }
