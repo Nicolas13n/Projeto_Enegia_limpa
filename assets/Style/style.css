@@ -76,15 +76,15 @@ hr{
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 70%;
+  width: 100%;
   gap: 20px;
   font-size: 6rem;
   color: white;
-  margin-bottom: 30px;
+  margin-bottom: 200px;
 }
 
 .titulo h1 {
-  font-size: 8.5rem;
+  font-size: 12.5rem;
   font-family: "Cinzel", serif;
 }
 
@@ -372,6 +372,7 @@ footer {
 }
 
 
+ 
 .btnDarkMode{
   background: none;
   border: none;
@@ -382,12 +383,12 @@ footer {
   align-items: center;
   justify-content: center;
 }
-
+ 
 .btnDarkMode.active{
-  
+ 
   color: white;
 }
-
+ 
 body.darkMode{
   background-color: black;
   color: white;
@@ -395,6 +396,9 @@ body.darkMode{
 .color.darkMode{
   color: rgb(114, 50, 114)
 }
-.card.darkMode{
+.card-list.card-item.card.darkMode{
   background-color:darkgreen;
+}
+.card.darkMode{
+    background-color:darkgreen;
 }
