@@ -19,18 +19,8 @@
   .card- {
     font-size: 1.2rem;
   }
-  .form {
-    width: 500px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    background-color: rgba(202, 255, 142, 0.705);
-    padding: 20px;
-    width: 60%;
-    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-    transition: transform 0.3s;
-    margin-bottom: 30px;
-    border-radius: 30px;
+  .formulario{
+    width: 90%;
   }
 }
 @media (max-width: 600px) {

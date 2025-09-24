@@ -303,14 +303,24 @@ footer {
   align-items: center;
 }
 
+.formulario{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+    font-size: 2rem;
+    margin: 20px 0;
+    color: black;
+    width: 60%;
+}
+
 .form {
-  width: 100%;
+
   display: flex;
   flex-direction: column;
   align-items: center;
   background-color: rgba(202, 255, 142, 0.705);
   padding: 20px;
-  width: 60%;
+  width: 100%;
   box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
   transition: transform 0.3s;
   margin-bottom: 30px;
@@ -402,3 +412,4 @@ body.darkMode{
 .card.darkMode{
     background-color:darkgreen;
 }
+
