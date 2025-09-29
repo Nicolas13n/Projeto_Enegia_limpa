@@ -28,6 +28,7 @@ header .logoAndTitle h1 {
   gap: 10px;
   height: 100%;
   margin-left: 60px;
+  max-width: 200px;
 }
 
 .logoAndTitle img {
@@ -56,6 +57,15 @@ section {
   height: 87vh;
   align-items: center;
   font-weight: bold;
+}
+
+.linhaText {
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 hr{
@@ -343,6 +353,10 @@ footer {
     margin: 20px 0;
     color: black;
     width: 60%;
+}
+
+.formulario::placeholder{
+    color: #000;
 }
 
 .form {
