@@ -1,4 +1,12 @@
+@media (max-width:850px) {
+  .titulo h1 {
+    font-size: 9.5rem;
+  }
+}
 @media (max-width: 800px) {
+  .titulo h1{
+    font-size: 9rem;
+  }
   .card- {
     background-color: rgba(199, 255, 96, 0.705);
     padding: 20px;

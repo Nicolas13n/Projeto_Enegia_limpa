@@ -13,7 +13,7 @@ elements.forEach(element => {
     myOberver.observe(element);
 });
 
-
+//
 document.querySelectorAll('a[href^="#"]').forEach(link => {
     link.addEventListener('click', function(e) {
         const destinoId = this.getAttribute('href').replace('#', '');
@@ -62,6 +62,8 @@ btnEnviar.addEventListener('click', function(e) {
     document.querySelector('.inMensagem').value = '';
 });
 
+
+//
 const btnDarkMode = document.querySelector('.btnDarkMode');
 const all = document.querySelectorAll('*');
 btnDarkMode.addEventListener('click', () => {
