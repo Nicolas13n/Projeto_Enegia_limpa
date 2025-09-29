@@ -1,3 +1,14 @@
+@media (max-width: 1500px) {
+  .titulo h1 {
+    font-size: 9.5rem;
+  }
+
+}
+@media (max-width: 1200px){
+    .titulo h1 {
+    font-size: 7.5rem;
+  }
+}
 @media (max-width:850px) {
   .titulo h1 {
     font-size: 9.5rem;

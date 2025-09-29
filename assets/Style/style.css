@@ -76,11 +76,12 @@ hr{
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 100%;
+  max-width: 1500px;
   gap: 20px;
   font-size: 6rem;
   color: white;
-  margin-bottom: 200px;
+  margin-bottom: 100px;
+  text-align: center;
 }
 
 .titulo h1 {
@@ -203,7 +204,6 @@ main .title {
   flex-wrap: wrap;
 }
 
-<<<<<<< Updated upstream
 .card- {
   background-color: rgba(199, 255, 96, 0.705);
   padding: 20px;
@@ -214,18 +214,6 @@ main .title {
   margin-bottom: 30px;
   height: 40%;
   font-size: 1.4rem;
-=======
-.card-{
-    background-color: rgba(199, 255, 96, 0.705);
-    padding: 20px;
-    border-radius: 10px;
-    max-width: 350px;
-    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-    transition: transform 0.3s;
-    margin-bottom: 30px;
-    height: 550px;
-    
->>>>>>> Stashed changes
 }
 
 .card-:hover{
