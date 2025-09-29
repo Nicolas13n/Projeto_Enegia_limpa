@@ -243,6 +243,10 @@ main .title {
   margin-bottom: 50px;
 }
 
+.btnSabiaMais{
+  height: 50%;
+}
+
 .btnSabiaMais button{
   height: 50px;
   width: 250px;
