@@ -461,3 +461,8 @@ body.darkMode{
 card-.darkMode {
     background-color:darkgreen;
 }
+
+
+.desligar{
+    display: none;
+}

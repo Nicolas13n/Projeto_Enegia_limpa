@@ -72,3 +72,18 @@ btnDarkMode.addEventListener('click', () => {
     });
     btnDarkMode.classList.toggle('active');
 });
+
+const container = document.querySelector(".container");
+
+function verificarTamanho(){
+    const larguraTotal = window.innerWidth;
+    const btnScrollTop = document.querySelector(".btnScrollTop")
+    if(larguraTotal <= 190){
+        container.classList.add("desligar");
+        btnScrollTop.classList.add("desligar")
+    } else {
+        container.classList.remove("desligar");
+    }
+}
+window.addEventListener('resize', verificarTamanho);
+verificarTamanho();
