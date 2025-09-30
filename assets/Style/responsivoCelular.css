@@ -4,20 +4,24 @@
   }
 
 }
-@media (max-width: 1200px){
-    .titulo h1 {
+
+@media (max-width: 1200px) {
+  .titulo h1 {
     font-size: 7.5rem;
   }
 }
+
 @media (max-width:850px) {
   .titulo h1 {
     font-size: 9.5rem;
   }
 }
-@media (max-width: 900px ){
-  .titulo h1{
+
+@media (max-width: 900px) {
+  .titulo h1 {
     font-size: 9rem;
   }
+
   .card- {
     background-color: rgba(199, 255, 96, 0.705);
     padding: 20px;
@@ -28,50 +32,62 @@
     margin-bottom: 30px;
     height: 675px;
   }
+
   .menuResponsivoButton {
     display: block;
   }
+
   .menu {
     display: none;
     position: fixed;
   }
+
   .card- {
     font-size: 1.2rem;
   }
-  .formulario{
+
+  .formulario {
     width: 90%;
   }
-  .btnSabiaMais{
+
+  .btnSabiaMais {
     height: 20%;
   }
 }
+
 @media (max-width: 600px) {
   .logoAndTitle {
     margin-left: 0;
   }
+
   .logoAndTitle img {
     height: 52px;
     width: 60px;
   }
+
   body {
     font-size: 14px;
   }
+
   header {
     font-size: 1rem;
   }
+
   .menu {
     display: none;
     position: fixed;
   }
+
   .titulo {
     width: 100%;
     font-size: 1.5rem;
   }
+
   .menuResponsivoButton {
     display: block;
   }
-.tiulo
-  .card- {
+
+  .tiulo .card- {
     background-color: rgba(199, 255, 96, 0.705);
     padding: 20px;
     border-radius: 10px;
@@ -81,7 +97,8 @@
     margin-bottom: 30px;
     height: 550px;
   }
-  .card-{
+
+  .card- {
     font-size: 1rem;
   }
 }
@@ -91,25 +108,31 @@
     display: none;
     position: fixed;
   }
+
   .titulo {
     width: 100%;
     font-size: 1.5rem;
   }
+
   .menuResponsivoButton {
     display: block;
     margin-right: 30px;
   }
+
   .titulo {
     width: 100%;
     font-size: 7.2rem;
   }
+
   .titulo h1 {
     font-size: 5rem;
   }
+
   .logoAndTitle img {
     height: 52px;
     width: 60px;
   }
+
   .footer-content {
     flex-direction: column;
     align-items: center;
@@ -117,15 +140,18 @@
     padding: 0 10px;
     gap: 30px;
   }
+
   .footer-section {
     min-width: unset;
     margin: 15px 0;
   }
+
   .footer-section h3,
   .footer-section h4 {
     margin-bottom: 6px;
     font-size: 1.1rem;
   }
+
   .footer-bottom {
     font-size: 13px;
     padding-top: 8px;
@@ -133,25 +159,28 @@
 }
 
 @media (max-width: 400px) {
-  
-    .card- {
+
+  .card- {
     font-size: 0.93rem;
   }
-  .card-list .card-item .card {
-    height: 600px;
+
+  .card-list .card {
+    height: 500px;
     width: 100%;
     user-select: none;
     display: block;
-    background-color: rgba(5, 129, 5, 0.705);
+    background-color: var(--verdeFraco);
     padding: 18px;
     border-radius: 12px;
-    color: white;
+    color: rgb(0, 0, 0);
   }
+
   .card-list .card-item .Card-Image {
     height: 30%;
     width: 100%;
     border-radius: 12px;
   }
+
   .titulo {
     width: 100%;
     font-size: 2.2rem;
@@ -159,11 +188,12 @@
 }
 
 
-@media (max-width:325px){
-  .logoAndTitle{
+@media (max-width:325px) {
+  .logoAndTitle {
     font-size: 0.6rem;
   }
-  .titulo{
+
+  .titulo {
     font-size: 0.5rem;
   }
 }

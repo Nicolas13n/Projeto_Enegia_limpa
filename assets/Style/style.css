@@ -14,8 +14,8 @@ header {
   justify-content: space-between;
   align-items: center;
   padding: 20px;
-  background-color: rgba(255, 255, 255, 0.253);
-  color: white;
+  background-color: var(--cinza);
+  color: var(--white);
 }
 
 header .logoAndTitle h1 {
@@ -28,7 +28,7 @@ header .logoAndTitle h1 {
   gap: 10px;
   height: 100%;
   margin-left: 60px;
-  max-width: 200px;
+  max-width: 300px;
 }
 
 .logoAndTitle img {
@@ -43,7 +43,7 @@ header .logoAndTitle h1 {
 
 .menu a {
   text-decoration: none;
-  color: white;
+  color: var(--white);
   font-weight: bold;
   transition: color 0.3s;
   font-size: 1.4rem;
@@ -70,13 +70,13 @@ section {
 
 hr{
   width: 50%;
-  border: 1px solid white;
+  border: 1px solid var(--white);
   margin-bottom: 20px;
 }
 
 .text{
     font-size: 1.6rem;
-    color: white;
+    color: var(--white);
     margin-top: 20px;
     font-family: "Cinzel", serif;
 }
@@ -89,7 +89,7 @@ hr{
   max-width: 1500px;
   gap: 20px;
   font-size: 6rem;
-  color: white;
+  color: var(--white);
   margin-bottom: 100px;
   text-align: center;
 }
@@ -111,7 +111,7 @@ hr{
   display: none;
   flex-direction: column;
   align-items: center;
-  background-color: rgb(199, 255, 96);
+  background-color: var(--verdeFraco);
   padding: 30px;
   border-radius: 10px 0 0 10px;
   font-size: 1.2rem;
@@ -123,7 +123,7 @@ hr{
   transition: transform 0.4s cubic-bezier(0.77, 0, 0.18, 1), opacity 0.3s;
 }
 .menuResponsivo a {
-  color: black;
+  color: var(--black);
   text-decoration: none;
   font-weight: bold;
 }
@@ -162,14 +162,12 @@ main .title {
   width: 100%;
   user-select: none;
   display: block;
-  background-color: rgba(5, 129, 5, 0.705);
+  background-color: var(--verdeFraco);
   padding: 18px;
   border-radius: 12px;
-  color: white;
+  color: rgb(0, 0, 0);
 }
-.card{
-    background-color: rgba(162, 255, 162, 0.705);
-}
+
 .card-list .card-item .card h2{
     margin-bottom: 12px;
 }
@@ -178,6 +176,7 @@ main .title {
   height: 60%;
   width: 100%;
   border-radius: 12px;
+  margin-bottom: 20px;
 }
 
 .card-list .card-item .card p {
@@ -215,7 +214,7 @@ main .title {
 }
 
 .card- {
-  background-color: rgba(199, 255, 96, 0.705);
+  background-color: #c7ff60b4;
   padding: 20px;
   border-radius: 10px;
   width: 550px;
