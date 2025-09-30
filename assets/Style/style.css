@@ -168,7 +168,7 @@ main .title {
   color: white;
 }
 .card{
-    background-color: rgba(5, 129, 5, 0.705);
+    background-color: rgba(162, 255, 162, 0.705);
 }
 .card-list .card-item .card h2{
     margin-bottom: 12px;
@@ -230,6 +230,7 @@ main .title {
   transform: translateY(-50px);
   z-index: 1;
   box-shadow: 0px 20px 20px rgba(0, 0, 0, 0.432);
+
 }
 
 
@@ -267,6 +268,10 @@ main .title {
   font-size: 1.2rem;
   color: rgb(0, 0, 0);
   margin-bottom: 10px;
+}
+
+.btnSabiaMais a button:hover{
+  cursor: pointer;
 }
 footer {
   background: #222;

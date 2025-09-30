@@ -77,13 +77,21 @@ const container = document.querySelector(".container");
 
 function verificarTamanho(){
     const larguraTotal = window.innerWidth;
-    const btnScrollTop = document.querySelector(".btnScrollTop")
+    const btnScrollTop = document.querySelector(".btnScrollTop");
+    const mensagem = document.querySelector(".mensagem");
     if(larguraTotal <= 190){
         container.classList.add("desligar");
         btnScrollTop.classList.add("desligar")
+        mensagem.innerText = "Para esse dispositivos não ha disponibilidade";
+        mensagem.style.fontSize ="20px"
+        
     } else {
         container.classList.remove("desligar");
     }
 }
 window.addEventListener('resize', verificarTamanho);
 verificarTamanho();
+
+
+let lista = []
+lista.sort
