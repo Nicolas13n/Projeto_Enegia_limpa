@@ -134,15 +134,15 @@ hr{
   cursor: pointer;
 }
 
-
+.containerMain {
+  background-color: #F2F2F2
+ ;
+}
 
 .swiper {
-  
   width: 100%;
   max-width: 1500px;
   border-radius: 16px;
-  
-  
 }
 
 main .title {
@@ -197,7 +197,7 @@ main .title {
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-color: #F9F5E9
+ background-color: #3eb4899a;
 }
 .mainCards h2 {
   margin: 60px 0;
@@ -213,9 +213,7 @@ main .title {
 }
 
 .card- {
-  background-color: #caff8eb4;
-
-
+  background-color: #ADEBB3;
   padding: 20px;
   border-radius: 10px;
   width: 550px;
@@ -232,7 +230,6 @@ main .title {
   box-shadow: 0px 20px 20px rgba(0, 0, 0, 0.432);
 
 }
-
 
 .card- .icon {
   display: flex;
@@ -286,11 +283,13 @@ footer {
   max-width: 1100px;
   margin: 0 auto;
 }
+
 .footer-section {
   flex: 1;
   min-width: 220px;
   margin: 10px;
 }
+
 .footer-section h3,
 .footer-section h4 {
   color: #4caf50;
@@ -301,6 +300,7 @@ footer {
   text-decoration: none;
   margin-right: 8px;
 }
+
 .footer-bottom {
   text-align: center;
   margin-top: 20px;
@@ -343,15 +343,11 @@ footer {
 .cards :nth-child(2) {
   transition-delay: 400ms;
 }
-.containerMain {
-  background-color: #F9F5E9
- ;
-}
+
 .c {
   display: flex;
   flex-direction: column;
   align-items: center;
-  
 }
 
 .formulario{
@@ -373,7 +369,7 @@ footer {
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-color: rgba(202, 255, 142, 0.705);
+  background-color: rgba(255, 255, 255, 0.705);
   padding: 20px;
   width: 100%;
   box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);

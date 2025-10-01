@@ -23,7 +23,7 @@
   }
 
   .card- {
-    background-color: rgba(199, 255, 96, 0.705);
+
     padding: 20px;
     border-radius: 10px;
     width: 90%;
@@ -88,7 +88,7 @@
   }
 
   .tiulo .card- {
-    background-color: rgba(199, 255, 96, 0.705);
+    
     padding: 20px;
     border-radius: 10px;
     width: 80%;
