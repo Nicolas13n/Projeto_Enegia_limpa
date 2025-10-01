@@ -57,6 +57,7 @@ section {
   height: 87vh;
   align-items: center;
   font-weight: bold;
+  
 }
 
 .linhaText {
@@ -136,11 +137,12 @@ hr{
 
 
 .swiper {
-  margin-bottom: 30px;
+  
   width: 100%;
   max-width: 1500px;
   border-radius: 16px;
-  margin-bottom: 20px;
+  
+  
 }
 
 main .title {
@@ -162,7 +164,7 @@ main .title {
   width: 100%;
   user-select: none;
   display: block;
-  background-color: var(--verdeFraco);
+  background-color: #91ce4ab4;
   padding: 18px;
   border-radius: 12px;
   color: var(--black);
@@ -195,7 +197,7 @@ main .title {
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-color: rgba(202, 255, 142, 0.705);
+  background-color: #F9F5E9
 }
 .mainCards h2 {
   margin: 60px 0;
@@ -211,7 +213,9 @@ main .title {
 }
 
 .card- {
-  background-color: #c7ff60b4;
+  background-color: #caff8eb4;
+
+
   padding: 20px;
   border-radius: 10px;
   width: 550px;
@@ -339,11 +343,15 @@ footer {
 .cards :nth-child(2) {
   transition-delay: 400ms;
 }
-
+.containerMain {
+  background-color: #F9F5E9
+ ;
+}
 .c {
   display: flex;
   flex-direction: column;
   align-items: center;
+  
 }
 
 .formulario{
