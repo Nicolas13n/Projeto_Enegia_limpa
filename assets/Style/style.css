@@ -165,7 +165,7 @@ main .title {
   background-color: var(--verdeFraco);
   padding: 18px;
   border-radius: 12px;
-  color: rgb(0, 0, 0);
+  color: var(--black);
 }
 
 .card-list .card-item .card h2{
@@ -183,9 +183,6 @@ main .title {
   margin-bottom: 100px;
 }
 
-.swiper-button-prev {
-  color: green;
-}
 .menuResponsivo.active {
   position: fixed;
   transform: translateX(0);
