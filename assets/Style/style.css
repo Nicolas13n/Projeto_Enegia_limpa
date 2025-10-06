@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&display=swap");
 .color {
-  color: rgb(0, 255, 0);
+  color: rgb(22, 105, 22);
 }
 
 span {
@@ -14,7 +14,7 @@ header {
   justify-content: space-between;
   align-items: center;
   padding: 20px;
-  background-color: var(--cinza);
+ background-color: #00000050;
   color: var(--white);
 }
 
@@ -57,7 +57,7 @@ section {
   height: 87vh;
   align-items: center;
   font-weight: bold;
-  
+  background-color: #00000050;
 }
 
 .linhaText {
@@ -112,7 +112,7 @@ hr{
   display: none;
   flex-direction: column;
   align-items: center;
-  background-color: var(--verdeFraco);
+  background-color: rgb(216, 216, 94);
   padding: 30px;
   border-radius: 10px 0 0 10px;
   font-size: 1.2rem;
@@ -256,7 +256,7 @@ main .title {
   height: 50%;
 }
 
-.btnSabiaMais button{
+.btnSaibaMais button{
   height: 50px;
   width: 250px;
   border: rgb(0, 0, 0) 4px solid;
@@ -267,7 +267,7 @@ main .title {
   margin-bottom: 10px;
 }
 
-.btnSabiaMais a button:hover{
+.btnSaibaMais a button:hover{
   cursor: pointer;
 }
 footer {
