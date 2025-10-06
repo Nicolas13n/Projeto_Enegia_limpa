@@ -471,3 +471,11 @@ card-.darkMode {
 .desligar{
     display: none;
 }
+
+text{
+  fill: #FFF;
+  font-size: 10px;
+}
+.icon-state{
+  fill: #bdc3c7;
+}
