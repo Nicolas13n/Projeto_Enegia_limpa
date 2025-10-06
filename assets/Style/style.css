@@ -135,8 +135,7 @@ hr{
 }
 
 .containerMain {
-  background-color: #F2F2F2
- ;
+  background-color: #d6d5c2;
 }
 
 .swiper {
@@ -149,6 +148,7 @@ main .title {
   text-align: center;
   margin: 20px 0;
   font-size: 2.5rem;
+  color: #000;
 }
 .card-wrapper {
   display: flex;
@@ -167,7 +167,6 @@ main .title {
   background-color: #91ce4ab4;
   padding: 18px;
   border-radius: 12px;
-  color: var(--black);
 }
 
 .card-list .card-item .card h2{
@@ -222,6 +221,7 @@ main .title {
   margin-bottom: 30px;
   height: 40%;
   font-size: 1.4rem;
+  color: var(--black);
 }
 
 .card-:hover{
@@ -452,7 +452,7 @@ footer {
  
 body.darkMode{
   background-color: black;
-  color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
 }
 .color.darkMode{
   color: #723272
@@ -478,4 +478,12 @@ text{
 }
 .icon-state{
   fill: #bdc3c7;
+}
+
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 24
 }

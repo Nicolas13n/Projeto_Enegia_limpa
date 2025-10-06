@@ -63,15 +63,15 @@ btnEnviar.addEventListener('click', function(e) {
 });
 
 
-//
-// const btnDarkMode = document.querySelector('.btnDarkMode');
-// const all = document.querySelectorAll('*');
-// btnDarkMode.addEventListener('click', () => {
-//     all.forEach(element => {
-//         element.classList.toggle('darkMode');
-//     });
-//     btnDarkMode.classList.toggle('active');
-// });
+
+const btnDarkMode = document.querySelector('.btnDarkMode');
+const all = document.querySelectorAll('*');
+btnDarkMode.addEventListener('click', () => {
+    all.forEach(element => {
+        element.classList.toggle('darkMode');
+    });
+    btnDarkMode.classList.toggle('active');
+});
 
 const container = document.querySelector(".container");
 
