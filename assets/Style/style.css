@@ -171,6 +171,7 @@ main .title {
 
 .card-list .card-item .card h2{
     margin-bottom: 12px;
+    max-width:400px;
 }
 
 .card-list .card-item .Card-Image {
