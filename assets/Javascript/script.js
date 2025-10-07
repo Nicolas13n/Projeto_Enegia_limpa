@@ -1,3 +1,4 @@
+//Parecer os elementos da Página
 const myOberver = new IntersectionObserver((entries) => {
     entries.forEach(entry => {
         if (entry.isIntersecting) {
@@ -13,7 +14,7 @@ elements.forEach(element => {
     myOberver.observe(element);
 });
 
-//
+//Link
 document.querySelectorAll('a[href^="#"]').forEach(link => {
     link.addEventListener('click', function(e) {
         const destinoId = this.getAttribute('href').replace('#', '');
@@ -30,9 +31,7 @@ document.querySelectorAll('a[href^="#"]').forEach(link => {
     });
 });
 
-//
-
-
+//Formulario
 let btnEnviar = document.querySelector('.btnEnviar');
 btnEnviar.addEventListener('click', function(e) {
     let inNome = document.querySelector('.inNome').value;
@@ -62,10 +61,7 @@ btnEnviar.addEventListener('click', function(e) {
     document.querySelector('.inMensagem').value = '';
 });
 
-
-
-
-
+// Botão Dark Mode
 const btnDarkMode = document.querySelector('.btnDarkMode');
 const all = document.querySelectorAll('*');
 btnDarkMode.addEventListener('click', () => {
@@ -82,6 +78,8 @@ btnDarkModeResponsivo.addEventListener('click', () => {
         element.classList.toggle('darkMode');
     });
 });
+
+// Botão de Dispositivos não ha disponibilidade
 
 const container = document.querySelector(".container");
 
@@ -101,5 +99,3 @@ function verificarTamanho(){
 }
 window.addEventListener('resize', verificarTamanho);
 verificarTamanho();
-
-

@@ -1,3 +1,4 @@
+//Slider
 new Swiper('.card-wrapper', {
   loop: true,
     spaceBetween: 20,
