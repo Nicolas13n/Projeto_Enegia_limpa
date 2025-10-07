@@ -148,6 +148,27 @@ hr{
   background-color: #d6d5c2;
 }
 
+.titleText{
+  height: 60vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+
+.titleText .title{
+  font-size: 2.5rem;
+  color: #000;
+}
+
+.titleText .text{
+  font-size: 1.2rem;
+  color: #000;
+  max-width:900px ;
+  text-align: center;
+  gap: 20px;
+}
 .swiper {
   width: 100%;
   max-width: 1500px;
