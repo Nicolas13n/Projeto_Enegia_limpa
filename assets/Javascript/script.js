@@ -64,6 +64,8 @@ btnEnviar.addEventListener('click', function(e) {
 
 
 
+
+
 const btnDarkMode = document.querySelector('.btnDarkMode');
 const all = document.querySelectorAll('*');
 btnDarkMode.addEventListener('click', () => {
@@ -71,6 +73,14 @@ btnDarkMode.addEventListener('click', () => {
         element.classList.toggle('darkMode');
     });
     btnDarkMode.classList.toggle('active');
+});
+
+const btnDarkModeResponsivo = document.querySelector(".btnDarkModeResponsivo");
+
+btnDarkModeResponsivo.addEventListener('click', () => {
+    all.forEach(element => {
+        element.classList.toggle('darkMode');
+    });
 });
 
 const container = document.querySelector(".container");

@@ -434,7 +434,7 @@ footer {
 
 
  
-.btnDarkMode{
+.btnDarkMode,.btnDarkModeResponsivo{
   background: none;
   border: none;
   cursor: pointer;
@@ -445,7 +445,9 @@ footer {
   justify-content: center;
 }
  
-.btnDarkMode.active{
+
+
+.btnDarkMode.active,.btnDarkModeResponsivo.active{
  
   color: white;
 }
