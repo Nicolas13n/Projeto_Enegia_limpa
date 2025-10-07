@@ -2,7 +2,9 @@
   .titulo h1 {
     font-size: 9.5rem;
   }
-
+  .titleText{
+    height: 70vh;
+  }
 }
 
 @media (max-width: 1200px) {
@@ -17,6 +19,9 @@
 @media (max-width:850px) {
   .titulo h1 {
     font-size: 9.5rem;
+  }
+  .titleText{
+    height: 100vh;
   }
 }
 

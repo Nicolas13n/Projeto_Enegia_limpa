@@ -149,17 +149,19 @@ hr{
 }
 
 .titleText{
-  height: 60vh;
+  height: 40vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   gap: 30px;
+  padding: 20px;
 }
 
 .titleText .title{
   font-size: 2.5rem;
   color: #000;
+  text-align: center;
 }
 
 .titleText .text{
