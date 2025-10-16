@@ -49,5 +49,5 @@ function verificarTamanho() {
     container.classList.remove("desligar");
   }
 }
-window.addEventListener('resize', verificarTamanho);
+window.addEventListener("resize", verificarTamanho);
 verificarTamanho();
