@@ -62,25 +62,25 @@ section {
 }
 
 .linhaText {
-    width: 100%;
-    padding: 10px;
-    text-align: center;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+  width: 100%;
+  padding: 10px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
-hr{
+hr {
   width: 50%;
   border: 1px solid var(--white);
   margin-bottom: 20px;
 }
 
-.text{
-    font-size: 1.6rem;
-    color: var(--white);
-    margin-top: 20px;
-    font-family: "Cinzel", serif;
+.text {
+  font-size: 1.6rem;
+  color: var(--white);
+  margin-top: 20px;
+  font-family: "Cinzel", serif;
 }
 
 .titulo {
@@ -240,7 +240,7 @@ main .title {
 }
 
 .card- {
-  background-color: #ADEBB3;
+  background-color: #adebb3;
   padding: 20px;
   border-radius: 10px;
   width: 550px;
@@ -252,11 +252,10 @@ main .title {
   color: var(--black);
 }
 
-.card-:hover{
+.card-:hover {
   transform: translateY(-50px);
   z-index: 1;
   box-shadow: 0px 20px 20px rgba(0, 0, 0, 0.432);
-
 }
 
 .card- .icon {
@@ -276,7 +275,7 @@ main .title {
   display: flex;
 }
 
-.card- p{
+.card- p {
   margin-bottom: 50px;
 }
 
