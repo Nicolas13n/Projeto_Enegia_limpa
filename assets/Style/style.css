@@ -9,13 +9,16 @@ span {
   font-family: "Cinzel", serif;
 }
 
+.geral{
+  background-color: #00000050;
+}
+
 header {
   height: 13vh;
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 20px;
- background-color: #00000050;
   color: var(--white);
 }
 
@@ -147,9 +150,13 @@ hr {
   background-color: #f2f2f2;
 }
 
+.containerMain.darkMode {
+  background-color: #121212;
+}
+
 .titleText .text{
   font-size: 1.2rem;
-  color: #000;
+  color: #ffffff;
   max-width:900px ;
   text-align: center;
   gap: 20px;
@@ -572,8 +579,12 @@ text {
 .energiaLimpa .title {
   margin-top: 30px;
   margin-bottom: 30px;
+  color: #000;
 }
 
+.energiaLimpa .title.darkMode {
+  color: #ffffff;
+}
 .energiaLimpa .paragrafo {
   width: 50%;
 }

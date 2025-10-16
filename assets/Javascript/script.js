@@ -25,11 +25,13 @@ btnDarkMode.addEventListener('click', () => {
 });
 
 const btnDarkModeResponsivo = document.querySelector(".btnDarkModeResponsivo");
-
+const containerMain = document.querySelector(".containerMain");
 btnDarkModeResponsivo.addEventListener('click', () => {
     all.forEach(element => {
         element.classList.toggle('darkMode');
+
     });
+    containerMain.classList.toggle('darkMode');
 });
 
 // Botão de Dispositivos não ha disponibilidade
