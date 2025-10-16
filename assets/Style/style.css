@@ -265,6 +265,11 @@ main .title {
 
 .card- p {
   margin-bottom: 50px;
+  color: black;
+}
+
+.card- p.darkMode {
+  color: black;
 }
 
 .btnSabiaMais {
