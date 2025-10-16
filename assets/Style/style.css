@@ -579,3 +579,23 @@ text {
 }
 
   
+
+
+.energiaLimpa {
+  text-align: center;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.energiaLimpa .title {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.energiaLimpa .paragrafo {
+  width: 50%;
+}
+
+  
